@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thế Giới Di Động</title>
+<link rel="stylesheet"
+
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+body{
+
+    background:#f3f4f6;
+
+    font-family:Arial,sans-serif;
+    }
+
+/* TOP BANNER */
+
+
+
+.top-banner{
+
+    background:#0075d5;
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:10px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+
+
+/* HEADER */
+
+
+
+.main-header{
+
+    background:#ffd400;
+
+    padding:12px 0;
+
+}
+
+
+
+.logo-area{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+
+.tgdd-logo{
+
+    height:48px;
+
+}
+
+
+
+.search-box{
+
+    height:40px;
+
+    border-radius:40px;
+
+}
+
+
+
+.location-btn{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#ffe56d;
+
+    padding:10px;
+
+}
+
+
+
+.header-btn{
+
+    margin-top:10px;
+
+    font-weight:bold;
+
+}
+/* MENU */
+.menu-bar{
+    background:#ffd400;
+    border-top:1px solid #e0c000;
+}
+
+.menu-bar li a{
+
+    color:#000 !important;
+    font-weight:500;
+
+}
+/* BANNER */
+.banner-img{
+
+    width:100%;
+
+    height:250px;
+
+    border-radius:12px;
+
+    object-fit:cover;
+
+}
+
+/* FILTER */
+.filter-btn{
+    background:white;
+
+    border:1px solid #ddd;
+
+    border-radius:20px;
+
+    padding:10px 15px;
+
+    margin:4px;
+
+}
+
+
+
+/* PRODUCT */
+
+
+
+.product-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    min-height:420px;
+
+    transition:.3s;
+
+}
+
+
+
+.product-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+
+}
+
+
+
+.product-img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:contain;
+
+}
+
+
+
+.product-title{
+
+    min-height:40px;
+
+    font-weight:bold;
+
+}
+
+
+
+.price{
+
+    color:#d0021b;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+
+
+.old-price{
+
+    color:#999;
+
+    text-decoration:line-through;
+
+}
+
+
+
+.feedback-box{
+
+    background:white;
+
+    border:1px solid #ffd400;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    margin:30px auto;
+
+}
+
+
+
+.industry-btn{
+
+    border:1px solid #2f80ed;
+
+    color:#2f80ed;
+
+    background:white;
+
+    padding:12px 30px;
+
+    border-radius:12px;
+
+    font-weight:bold;
+
+}
+
+
+
+footer{
+
+    background:white;
+
+    padding:30px 0;
+
+    margin-top:30px;
+
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="top-banner">
+
+DATA KHỦNG TỚI 6GB/NGÀY - MIỄN PHÍ DATA ỨNG DỤNG
+
+</div>
+
+<div class="main-header">
+<div class="container">
+<div class="row">
+<div class="col-md-2">
+<div class="logo-area">
+<img src="https://i.postimg.cc/YStXdTJH/120af5b2887809265069.jpg"class="tgdd-logo">
+</div>
+</div>
+<div class="col-md-4">
+<input type="text"class="form-control search-box"placeholder="Bạn tìm gì...">
+</div>
+<div class="col-md-2 text-center header-btn">
+    <span class="glyphicon glyphicon-user"></span> Đăng nhập
+</div>
+<div class="col-md-2 text-center header-btn">
+    <span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng
+</div>
+<div class="col-md-2">
+    <button class="location-btn">
+        <span class="glyphicon glyphicon-map-marker"></span> Hồ Chí Minh
+    </button>
+</div>
+</div>
+</div>
+</div>
+<div class="menu-bar">
+<div class="container">
+<ul class="nav navbar-nav">
+
+
+
+<li><a href="#" class="icon-box">📱 Điện thoại </a></li>
+
+<li><a href="#" class="icon-box">💻 Laptop </a></li>
+<li><a href="#" class="icon-box">🎧 Phụ Kiện </a></li>
+<li><a href="#" class="icon-box">⌚ Smartwatch</a></li>
+<li><a href="#"class="icon-box">⌚ Đồng hồ</a></li>
+<li><a href="#" class="icon-box">📟 Tablet</a></li>
+<li><a href="#" class="icon-box">🔄 Máy cũ</a></li>
+<li><a href="#" class="icon-box">🖥️ Màn hình</a></li>
+</ul>
+</div>
+</div>
+<div class="container">
+<h4>Trang chủ > 198 Điện thoại</h4>
+<div class="row">
+<div class="col-md-6">
+
+<img
+
+src="https://i.postimg.cc/mkBwZnsr/KV-final-12-1024x666.jpg"
+
+class="banner-img">
+
+</div>
+
+<div class="col-md-6">
+
+<img
+
+src="https://i.postimg.cc/zXNM3djg/1200x628-Banner-TT-Bang-gia-i-Phone.webp"
+
+class="banner-img">
+
+</div>
+</div>
+<br>
+<button class="filter-btn">Samsung</button>
+<button class="filter-btn">iPhone</button>
+<button class="filter-btn">Xiaomi</button>
+<button class="filter-btn">OPPO</button>
+<button class="filter-btn">Vivo</button>
+<button class="filter-btn">Realme</button>
+<button class="filter-btn">Honor</button>
+<hr>
+<div class="row"><div class="col-md-3">
+<div class="product-card">
+<img src="https://i.postimg.cc/kGxVBYfM/res-001e7e69e6d46fc6986fd4ee21fa0b78-(1).avif"
+class="product-img">
+<h4 class="product-title">Samsung Galaxy S25 Ultra</h4>
+<div class="price">
+29.990.000₫
+</div>
+<div class="old-price">
+34.990.000₫
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="product-card">
+<img src="https://i.postimg.cc/FH196n3H/Apple-i-Phone-15-lineup-hero-geo-230912-inline-jpg-large-2x.jpg"class="product-img">
+<h4 class="product-title">iPhone 15 Plus</h4>
+<div class="price">
+17.990.000₫
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="product-card">
+<img src="https://i.postimg.cc/ZYVzhxTP/honor-600-orange-official-image.webp"class="product-img">
+<h4 class="product-title">
+
+Honor 600 Pro
+
+</h4>
+<div class="price">
+14.990.000₫
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="product-card">
+<img src="https://i.postimg.cc/QMknJjCc/th.jpg"class="product-img">
+<h4 class="product-title">
+Realme 16T
+</h4>
+<div class="price">
+8.990.000₫
+</div>
+</div>
+</div>
+</div>
+<div class="feedback-box">
+<div class="row">
+<div class="col-md-8">
+Bạn có hài lòng với trải nghiệm tìm kiếm sản phẩm không?
+</div>
+<div class="col-md-2 text-center">
+😊<br>Hài lòng
+</div>
+
+<div class="col-md-2 text-center">
+😔<br>Không hài lòng
+</div>
+</div>
+</div>
+<div class="text-center">
+<button class="industry-btn">
+
+THÔNG TIN NGÀNH HÀNG
+
+</button>
+
+
+
+<br><br>
+
+
+
+<p style="font-size:18px;max-width:900px;margin:auto;">
+
+Trong kỷ nguyên công nghệ số, điện thoại di động đã trở thành thiết bị không thể thiếu trong cuộc sống hiện đại.
+</p>
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<h4>Tổng đài hỗ trợ</h4>
+<p>Gọi mua: 1900 232 460</p>
+<p>Khiếu nại: 1800 1062</p>
+<p>Bảo hành: 1900 232 464</p>
+</div>
+<div class="col-md-3">
+<h4>Về công ty</h4>
+<p>Giới thiệu công ty</p>
+<p>Tuyển dụng</p>
+<p>Góp ý</p>
+<p>Tìm siêu thị</p>
+</div>
+<div class="col-md-3">
+<h4>Thông tin khác</h4>
+<p>Tích điểm VIP</p>
+<p>Lịch sử mua hàng</p>
+<p>Trả góp</p>
+<p>Chính sách bảo hành</p>
+</div>
+<div class="col-md-3">
+<h4>Kết nối</h4>
+<p>Facebook</p>
+<p>Youtube</p>
+<p>Zalo</p>
+</div>
+</div>
+<hr>
+<div class="text-center">© 2026 Công ty Cổ phần Thế Giới Di Động
+</div>
+</div>
+</footer>
+</body>
+
+</html>
